@@ -1,0 +1,2260 @@
+
+PS C:\Users\patwater\dropbox\levelupdata\cusp> python get_data.py 08a616bb-c868-4f76-81fa-de1ca0da9b26 B38
+Bus line: B38
+{
+    "Siri": {
+        "ServiceDelivery": {
+            "ResponseTimestamp": "2014-08-13T21:11:53.017-04:00",
+            "SituationExchangeDelivery": [],
+            "VehicleMonitoringDelivery": [
+                {
+                    "ResponseTimestamp": "2014-08-13T21:11:53.017-04:00",
+                    "ValidUntil": "2014-08-13T21:12:53.017-04:00",
+                    "VehicleActivity": [
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 149.66585,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_58140_B38-130",
+                                "DestinationName": "LTD RIDGEWOOD CATALPA AV",
+                                "DestinationRef": "MTA_801068",
+                                "DirectionRef": "0",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-118400_B38_130"
+                                },
+                                "JourneyPatternRef": "MTA_B380103",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 9606.65,
+                                            "DistanceFromCall": 4.44,
+                                            "PresentableDistance": "at stop",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "SENECA AV/CORNELIA ST",
+                                    "StopPointRef": "MTA_801068",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9606.65,
+                                                    "DistanceFromCall": 4.44,
+                                                    "PresentableDistance": "at stop",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/CORNELIA ST",
+                                            "StopPointRef": "MTA_801068",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_303011",
+                                "ProgressRate": "noProgress",
+                                "ProgressStatus": "layover",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.700848,
+                                    "Longitude": -73.904377
+                                },
+                                "VehicleRef": "MTA NYCT_3982"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:31.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 186.53113,
+                                "BlockRef": "MTA NYCT_GA_C4-Weekday_C_GA_74460_B62-830",
+                                "DestinationName": "DNTWN BKLYN TILLARY ST",
+                                "DestinationRef": "MTA_901070",
+                                "DirectionRef": "1",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_GA_C4-Weekday-124600_B62_830"
+                                },
+                                "JourneyPatternRef": "MTA_B380104",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 5103.74,
+                                            "DistanceFromCall": 7.32,
+                                            "PresentableDistance": "at stop",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "DE KALB AV/NOSTRAND AV",
+                                    "StopPointRef": "MTA_303088",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5103.74,
+                                                    "DistanceFromCall": 7.32,
+                                                    "PresentableDistance": "at stop",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/NOSTRAND AV",
+                                            "StopPointRef": "MTA_303088",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5415.43,
+                                                    "DistanceFromCall": 319.0,
+                                                    "PresentableDistance": "1 stop away",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BEDFORD AV",
+                                            "StopPointRef": "MTA_303090",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5528.67,
+                                                    "DistanceFromCall": 432.24,
+                                                    "PresentableDistance": "2 stops away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FRANKLIN AV",
+                                            "StopPointRef": "MTA_303091",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5830.35,
+                                                    "DistanceFromCall": 733.92,
+                                                    "PresentableDistance": "3 stops away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CLASSON AV",
+                                            "StopPointRef": "MTA_303092",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6086.83,
+                                                    "DistanceFromCall": 990.4,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/RYERSON AV",
+                                            "StopPointRef": "MTA_306659",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6330.81,
+                                                    "DistanceFromCall": 1234.38,
+                                                    "PresentableDistance": "0.8 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WASHINGTON AV",
+                                            "StopPointRef": "MTA_303094",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6581.39,
+                                                    "DistanceFromCall": 1484.96,
+                                                    "PresentableDistance": "0.9 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/VANDERBILT AV",
+                                            "StopPointRef": "MTA_303096",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6790.84,
+                                                    "DistanceFromCall": 1694.42,
+                                                    "PresentableDistance": "1.1 miles away",
+                                                    "StopsFromCall": 7
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CARLTON AV",
+                                            "StopPointRef": "MTA_301931",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7039.49,
+                                                    "DistanceFromCall": 1943.06,
+                                                    "PresentableDistance": "1.2 miles away",
+                                                    "StopsFromCall": 8
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/S PORTLAND AV",
+                                            "StopPointRef": "MTA_301933",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7212.59,
+                                                    "DistanceFromCall": 2116.17,
+                                                    "PresentableDistance": "1.3 miles away",
+                                                    "StopsFromCall": 9
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FT GREENE PL",
+                                            "StopPointRef": "MTA_301934",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7390.36,
+                                                    "DistanceFromCall": 2293.93,
+                                                    "PresentableDistance": "1.4 miles away",
+                                                    "StopsFromCall": 10
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/ASHLAND PL",
+                                            "StopPointRef": "MTA_303101",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7572.1,
+                                                    "DistanceFromCall": 2475.67,
+                                                    "PresentableDistance": "1.5 miles away",
+                                                    "StopsFromCall": 11
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FLATBUSH AV EX",
+                                            "StopPointRef": "MTA_303102",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7693.85,
+                                                    "DistanceFromCall": 2597.42,
+                                                    "PresentableDistance": "1.6 miles away",
+                                                    "StopsFromCall": 12
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BOND ST",
+                                            "StopPointRef": "MTA_306925",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7930.01,
+                                                    "DistanceFromCall": 2833.58,
+                                                    "PresentableDistance": "1.8 miles away",
+                                                    "StopsFromCall": 13
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/DUFFIELD ST",
+                                            "StopPointRef": "MTA_307492",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8140.42,
+                                                    "DistanceFromCall": 3043.99,
+                                                    "PresentableDistance": "1.9 miles away",
+                                                    "StopsFromCall": 14
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/JAY ST",
+                                            "StopPointRef": "MTA_302433",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8465.59,
+                                                    "DistanceFromCall": 3369.16,
+                                                    "PresentableDistance": "2.1 miles away",
+                                                    "StopsFromCall": 15
+                                                }
+                                            },
+                                            "StopPointName": "JORALEMON ST/COURT ST",
+                                            "StopPointRef": "MTA_302434",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8595.45,
+                                                    "DistanceFromCall": 3499.03,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 16
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/MONTAGUE ST",
+                                            "StopPointRef": "MTA_306533",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8882.67,
+                                                    "DistanceFromCall": 3786.24,
+                                                    "PresentableDistance": "2.4 miles away",
+                                                    "StopsFromCall": 17
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/TILLARY ST",
+                                            "StopPointRef": "MTA_901070",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_503707",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.691289,
+                                    "Longitude": -73.952097
+                                },
+                                "VehicleRef": "MTA NYCT_9445"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:45.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 106.830444,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_72180_B20-24",
+                                "DestinationName": "DNTWN BKLYN TILLARY ST",
+                                "DestinationRef": "MTA_901070",
+                                "DirectionRef": "1",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-121100_B20_24"
+                                },
+                                "JourneyPatternRef": "MTA_B380099",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 8839.75,
+                                            "DistanceFromCall": 20.35,
+                                            "PresentableDistance": "at stop",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "CADMAN PLZ W/TILLARY ST",
+                                    "StopPointRef": "MTA_901070",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8839.75,
+                                                    "DistanceFromCall": 20.35,
+                                                    "PresentableDistance": "at stop",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/TILLARY ST",
+                                            "StopPointRef": "MTA_901070",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginAimedDepartureTime": "2014-08-13T21:09:00.000-04:00",
+                                "OriginRef": "MTA_504241",
+                                "ProgressRate": "noProgress",
+                                "ProgressStatus": "layover",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.695923,
+                                    "Longitude": -73.991016
+                                },
+                                "VehicleRef": "MTA NYCT_6516"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:24.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 178.3357,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_73380_B38-126",
+                                "DestinationName": "DNTWN BKLYN TILLARY ST",
+                                "DestinationRef": "MTA_901070",
+                                "DirectionRef": "1",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-123100_B38_126"
+                                },
+                                "JourneyPatternRef": "MTA_B380099",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 7529.18,
+                                            "DistanceFromCall": 29.67,
+                                            "PresentableDistance": "at stop",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "DE KALB AV/FLATBUSH AV EX",
+                                    "StopPointRef": "MTA_303102",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7529.18,
+                                                    "DistanceFromCall": 29.67,
+                                                    "PresentableDistance": "at stop",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FLATBUSH AV EX",
+                                            "StopPointRef": "MTA_303102",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7650.93,
+                                                    "DistanceFromCall": 151.42,
+                                                    "PresentableDistance": "approaching",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BOND ST",
+                                            "StopPointRef": "MTA_306925",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7887.09,
+                                                    "DistanceFromCall": 387.58,
+                                                    "PresentableDistance": "2 stops away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/DUFFIELD ST",
+                                            "StopPointRef": "MTA_307492",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8097.5,
+                                                    "DistanceFromCall": 597.99,
+                                                    "PresentableDistance": "3 stops away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/JAY ST",
+                                            "StopPointRef": "MTA_302433",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8422.67,
+                                                    "DistanceFromCall": 923.16,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "JORALEMON ST/COURT ST",
+                                            "StopPointRef": "MTA_302434",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8552.53,
+                                                    "DistanceFromCall": 1053.02,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/MONTAGUE ST",
+                                            "StopPointRef": "MTA_306533",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8839.75,
+                                                    "DistanceFromCall": 1340.24,
+                                                    "PresentableDistance": "0.8 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/TILLARY ST",
+                                            "StopPointRef": "MTA_901070",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_504241",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.689915,
+                                    "Longitude": -73.980908
+                                },
+                                "VehicleRef": "MTA NYCT_6538"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:38.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 6.5667057,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_71160_B38-125",
+                                "DestinationName": "RIDGEWOOD CATALPA AV",
+                                "DestinationRef": "MTA_801068",
+                                "DirectionRef": "0",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-125700_B38_125"
+                                },
+                                "JourneyPatternRef": "MTA_B380108",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 2456.82,
+                                            "DistanceFromCall": 37.41,
+                                            "PresentableDistance": "approaching",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "LAFAYETTE AV/VANDERBILT AV",
+                                    "StopPointRef": "MTA_303021",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2456.82,
+                                                    "DistanceFromCall": 37.41,
+                                                    "PresentableDistance": "approaching",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/VANDERBILT AV",
+                                            "StopPointRef": "MTA_303021",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2709.47,
+                                                    "DistanceFromCall": 290.05,
+                                                    "PresentableDistance": "1 stop away",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/WASHINGTON AV",
+                                            "StopPointRef": "MTA_303022",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2961.88,
+                                                    "DistanceFromCall": 542.47,
+                                                    "PresentableDistance": "2 stops away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/GRAND AV",
+                                            "StopPointRef": "MTA_303023",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3203.22,
+                                                    "DistanceFromCall": 783.81,
+                                                    "PresentableDistance": "3 stops away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/CLASSON AV",
+                                            "StopPointRef": "MTA_303024",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3388.01,
+                                                    "DistanceFromCall": 968.59,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/FRANKLIN AV",
+                                            "StopPointRef": "MTA_303025",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3622.33,
+                                                    "DistanceFromCall": 1202.92,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/BEDFORD AV",
+                                            "StopPointRef": "MTA_303026",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3939.06,
+                                                    "DistanceFromCall": 1519.65,
+                                                    "PresentableDistance": "0.9 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/NOSTRAND AV",
+                                            "StopPointRef": "MTA_303027",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4211.21,
+                                                    "DistanceFromCall": 1791.79,
+                                                    "PresentableDistance": "1.1 miles away",
+                                                    "StopsFromCall": 7
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MARCY AV",
+                                            "StopPointRef": "MTA_303028",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4452.54,
+                                                    "DistanceFromCall": 2033.13,
+                                                    "PresentableDistance": "1.3 miles away",
+                                                    "StopsFromCall": 8
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/TOMPKINS AV",
+                                            "StopPointRef": "MTA_303029",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4695.24,
+                                                    "DistanceFromCall": 2275.83,
+                                                    "PresentableDistance": "1.4 miles away",
+                                                    "StopsFromCall": 9
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/THROOP AV",
+                                            "StopPointRef": "MTA_303030",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4936.7,
+                                                    "DistanceFromCall": 2517.29,
+                                                    "PresentableDistance": "1.6 miles away",
+                                                    "StopsFromCall": 10
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MARCUS GARVEY BL",
+                                            "StopPointRef": "MTA_306465",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5186.33,
+                                                    "DistanceFromCall": 2766.92,
+                                                    "PresentableDistance": "1.7 miles away",
+                                                    "StopsFromCall": 11
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/LEWIS AV",
+                                            "StopPointRef": "MTA_303032",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5436.22,
+                                                    "DistanceFromCall": 3016.81,
+                                                    "PresentableDistance": "1.9 miles away",
+                                                    "StopsFromCall": 12
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/STUYVESANT AV",
+                                            "StopPointRef": "MTA_303033",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5685.39,
+                                                    "DistanceFromCall": 3265.97,
+                                                    "PresentableDistance": "2.0 miles away",
+                                                    "StopsFromCall": 13
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MALCOLM X BL",
+                                            "StopPointRef": "MTA_303034",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5888.87,
+                                                    "DistanceFromCall": 3469.45,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 14
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/PATCHEN AV",
+                                            "StopPointRef": "MTA_306395",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5970.13,
+                                                    "DistanceFromCall": 3550.72,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 15
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BROADWAY",
+                                            "StopPointRef": "MTA_303035",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6102.77,
+                                                    "DistanceFromCall": 3683.35,
+                                                    "PresentableDistance": "2.3 miles away",
+                                                    "StopsFromCall": 16
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303036",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6336.51,
+                                                    "DistanceFromCall": 3917.1,
+                                                    "PresentableDistance": "2.4 miles away",
+                                                    "StopsFromCall": 17
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303037",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6476.27,
+                                                    "DistanceFromCall": 4056.86,
+                                                    "PresentableDistance": "2.5 miles away",
+                                                    "StopsFromCall": 18
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/EVERGREEN AV",
+                                            "StopPointRef": "MTA_303038",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6761.79,
+                                                    "DistanceFromCall": 4342.37,
+                                                    "PresentableDistance": "2.7 miles away",
+                                                    "StopsFromCall": 19
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MYRTLE AV",
+                                            "StopPointRef": "MTA_303039",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6914.38,
+                                                    "DistanceFromCall": 4494.96,
+                                                    "PresentableDistance": "2.8 miles away",
+                                                    "StopsFromCall": 20
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WILSON AV",
+                                            "StopPointRef": "MTA_303040",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7165.43,
+                                                    "DistanceFromCall": 4746.02,
+                                                    "PresentableDistance": "2.9 miles away",
+                                                    "StopsFromCall": 21
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/KNICKERBOCKER AV",
+                                            "StopPointRef": "MTA_303041",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7385.37,
+                                                    "DistanceFromCall": 4965.96,
+                                                    "PresentableDistance": "3.1 miles away",
+                                                    "StopsFromCall": 22
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/IRVING AV",
+                                            "StopPointRef": "MTA_303042",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7605.72,
+                                                    "DistanceFromCall": 5186.31,
+                                                    "PresentableDistance": "3.2 miles away",
+                                                    "StopsFromCall": 23
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WYCKOFF AV",
+                                            "StopPointRef": "MTA_303043",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7771.9,
+                                                    "DistanceFromCall": 5352.49,
+                                                    "PresentableDistance": "3.3 miles away",
+                                                    "StopsFromCall": 24
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/ST NICHOLAS AV",
+                                            "StopPointRef": "MTA_303044",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7919.25,
+                                                    "DistanceFromCall": 5499.84,
+                                                    "PresentableDistance": "3.4 miles away",
+                                                    "StopsFromCall": 25
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CYPRESS AV",
+                                            "StopPointRef": "MTA_504229",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8028.33,
+                                                    "DistanceFromCall": 5608.92,
+                                                    "PresentableDistance": "3.5 miles away",
+                                                    "StopsFromCall": 26
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/SENECA AV",
+                                            "StopPointRef": "MTA_504230",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8157.62,
+                                                    "DistanceFromCall": 5738.21,
+                                                    "PresentableDistance": "3.6 miles away",
+                                                    "StopsFromCall": 27
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/STOCKHOLM ST",
+                                            "StopPointRef": "MTA_504231",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8395.16,
+                                                    "DistanceFromCall": 5975.75,
+                                                    "PresentableDistance": "3.7 miles away",
+                                                    "StopsFromCall": 28
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/HARMAN ST",
+                                            "StopPointRef": "MTA_504232",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8549.68,
+                                                    "DistanceFromCall": 6130.27,
+                                                    "PresentableDistance": "3.8 miles away",
+                                                    "StopsFromCall": 29
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/BLEECKER ST",
+                                            "StopPointRef": "MTA_504233",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8711.23,
+                                                    "DistanceFromCall": 6291.81,
+                                                    "PresentableDistance": "3.9 miles away",
+                                                    "StopsFromCall": 30
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/GROVE ST",
+                                            "StopPointRef": "MTA_504234",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8904.19,
+                                                    "DistanceFromCall": 6484.78,
+                                                    "PresentableDistance": "4.0 miles away",
+                                                    "StopsFromCall": 31
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/PALMETTO ST",
+                                            "StopPointRef": "MTA_504236",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9063.79,
+                                                    "DistanceFromCall": 6644.37,
+                                                    "PresentableDistance": "4.1 miles away",
+                                                    "StopsFromCall": 32
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/MADISON ST",
+                                            "StopPointRef": "MTA_504237",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9222.59,
+                                                    "DistanceFromCall": 6803.18,
+                                                    "PresentableDistance": "4.2 miles away",
+                                                    "StopsFromCall": 33
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/CORNELIA ST",
+                                            "StopPointRef": "MTA_504238",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9438.11,
+                                                    "DistanceFromCall": 7018.7,
+                                                    "PresentableDistance": "4.4 miles away",
+                                                    "StopsFromCall": 34
+                                                }
+                                            },
+                                            "StopPointName": "ONDERDONK AV/CATALPA AV",
+                                            "StopPointRef": "MTA_504239",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9606.65,
+                                                    "DistanceFromCall": 7187.24,
+                                                    "PresentableDistance": "4.5 miles away",
+                                                    "StopsFromCall": 35
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/CORNELIA ST",
+                                            "StopPointRef": "MTA_801068",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_303011",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.687864,
+                                    "Longitude": -73.968797
+                                },
+                                "VehicleRef": "MTA NYCT_6565"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:39.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 225.54317,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_75180_B38-132",
+                                "DestinationName": "DNTWN BKLYN TILLARY ST",
+                                "DestinationRef": "MTA_901070",
+                                "DirectionRef": "1",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-126100_B38_132"
+                                },
+                                "JourneyPatternRef": "MTA_B380099",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 2145.47,
+                                            "DistanceFromCall": 210.74,
+                                            "PresentableDistance": "< 1 stop away",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "DE KALB AV/KNICKERBOCKER AV",
+                                    "StopPointRef": "MTA_303075",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2145.47,
+                                                    "DistanceFromCall": 210.74,
+                                                    "PresentableDistance": "< 1 stop away",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/KNICKERBOCKER AV",
+                                            "StopPointRef": "MTA_303075",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2305.7,
+                                                    "DistanceFromCall": 370.97,
+                                                    "PresentableDistance": "1 stop away",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WILSON AV",
+                                            "StopPointRef": "MTA_303076",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2577.37,
+                                                    "DistanceFromCall": 642.64,
+                                                    "PresentableDistance": "2 stops away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MYRTLE AV",
+                                            "StopPointRef": "MTA_303077",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2830.24,
+                                                    "DistanceFromCall": 895.51,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/EVERGREEN AV",
+                                            "StopPointRef": "MTA_303078",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 2995.47,
+                                                    "DistanceFromCall": 1060.74,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303079",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3134.11,
+                                                    "DistanceFromCall": 1199.38,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BROADWAY",
+                                            "StopPointRef": "MTA_308229",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3306.22,
+                                                    "DistanceFromCall": 1371.49,
+                                                    "PresentableDistance": "0.9 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MALCOLM X BL",
+                                            "StopPointRef": "MTA_303081",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3555.25,
+                                                    "DistanceFromCall": 1620.52,
+                                                    "PresentableDistance": "1.0 miles away",
+                                                    "StopsFromCall": 7
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/STUYVESANT AV",
+                                            "StopPointRef": "MTA_303082",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3805.07,
+                                                    "DistanceFromCall": 1870.34,
+                                                    "PresentableDistance": "1.2 miles away",
+                                                    "StopsFromCall": 8
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/LEWIS AV",
+                                            "StopPointRef": "MTA_303083",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4055.71,
+                                                    "DistanceFromCall": 2120.98,
+                                                    "PresentableDistance": "1.3 miles away",
+                                                    "StopsFromCall": 9
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MARCUS GARVEY BL",
+                                            "StopPointRef": "MTA_306466",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4297.0,
+                                                    "DistanceFromCall": 2362.27,
+                                                    "PresentableDistance": "1.5 miles away",
+                                                    "StopsFromCall": 10
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/THROOP AV",
+                                            "StopPointRef": "MTA_303085",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4537.16,
+                                                    "DistanceFromCall": 2602.43,
+                                                    "PresentableDistance": "1.6 miles away",
+                                                    "StopsFromCall": 11
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/TOMPKINS AV",
+                                            "StopPointRef": "MTA_303086",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4779.12,
+                                                    "DistanceFromCall": 2844.39,
+                                                    "PresentableDistance": "1.8 miles away",
+                                                    "StopsFromCall": 12
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MARCY AV",
+                                            "StopPointRef": "MTA_303087",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5060.83,
+                                                    "DistanceFromCall": 3126.1,
+                                                    "PresentableDistance": "1.9 miles away",
+                                                    "StopsFromCall": 13
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/NOSTRAND AV",
+                                            "StopPointRef": "MTA_303088",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5372.51,
+                                                    "DistanceFromCall": 3437.78,
+                                                    "PresentableDistance": "2.1 miles away",
+                                                    "StopsFromCall": 14
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BEDFORD AV",
+                                            "StopPointRef": "MTA_303090",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5485.75,
+                                                    "DistanceFromCall": 3551.02,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 15
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FRANKLIN AV",
+                                            "StopPointRef": "MTA_303091",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5787.43,
+                                                    "DistanceFromCall": 3852.7,
+                                                    "PresentableDistance": "2.4 miles away",
+                                                    "StopsFromCall": 16
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CLASSON AV",
+                                            "StopPointRef": "MTA_303092",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6043.91,
+                                                    "DistanceFromCall": 4109.18,
+                                                    "PresentableDistance": "2.6 miles away",
+                                                    "StopsFromCall": 17
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/RYERSON AV",
+                                            "StopPointRef": "MTA_306659",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6287.89,
+                                                    "DistanceFromCall": 4353.16,
+                                                    "PresentableDistance": "2.7 miles away",
+                                                    "StopsFromCall": 18
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WASHINGTON AV",
+                                            "StopPointRef": "MTA_303094",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6538.47,
+                                                    "DistanceFromCall": 4603.74,
+                                                    "PresentableDistance": "2.9 miles away",
+                                                    "StopsFromCall": 19
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/VANDERBILT AV",
+                                            "StopPointRef": "MTA_303096",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6747.93,
+                                                    "DistanceFromCall": 4813.2,
+                                                    "PresentableDistance": "3.0 miles away",
+                                                    "StopsFromCall": 20
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CARLTON AV",
+                                            "StopPointRef": "MTA_301931",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6996.57,
+                                                    "DistanceFromCall": 5061.84,
+                                                    "PresentableDistance": "3.1 miles away",
+                                                    "StopsFromCall": 21
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/S PORTLAND AV",
+                                            "StopPointRef": "MTA_301933",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7169.67,
+                                                    "DistanceFromCall": 5234.94,
+                                                    "PresentableDistance": "3.3 miles away",
+                                                    "StopsFromCall": 22
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FT GREENE PL",
+                                            "StopPointRef": "MTA_301934",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7347.44,
+                                                    "DistanceFromCall": 5412.71,
+                                                    "PresentableDistance": "3.4 miles away",
+                                                    "StopsFromCall": 23
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/ASHLAND PL",
+                                            "StopPointRef": "MTA_303101",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7529.18,
+                                                    "DistanceFromCall": 5594.45,
+                                                    "PresentableDistance": "3.5 miles away",
+                                                    "StopsFromCall": 24
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/FLATBUSH AV EX",
+                                            "StopPointRef": "MTA_303102",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7650.93,
+                                                    "DistanceFromCall": 5716.2,
+                                                    "PresentableDistance": "3.6 miles away",
+                                                    "StopsFromCall": 25
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BOND ST",
+                                            "StopPointRef": "MTA_306925",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7887.09,
+                                                    "DistanceFromCall": 5952.36,
+                                                    "PresentableDistance": "3.7 miles away",
+                                                    "StopsFromCall": 26
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/DUFFIELD ST",
+                                            "StopPointRef": "MTA_307492",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8097.5,
+                                                    "DistanceFromCall": 6162.77,
+                                                    "PresentableDistance": "3.8 miles away",
+                                                    "StopsFromCall": 27
+                                                }
+                                            },
+                                            "StopPointName": "FULTON ST/JAY ST",
+                                            "StopPointRef": "MTA_302433",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8422.67,
+                                                    "DistanceFromCall": 6487.94,
+                                                    "PresentableDistance": "4.0 miles away",
+                                                    "StopsFromCall": 28
+                                                }
+                                            },
+                                            "StopPointName": "JORALEMON ST/COURT ST",
+                                            "StopPointRef": "MTA_302434",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8552.53,
+                                                    "DistanceFromCall": 6617.8,
+                                                    "PresentableDistance": "4.1 miles away",
+                                                    "StopsFromCall": 29
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/MONTAGUE ST",
+                                            "StopPointRef": "MTA_306533",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8839.75,
+                                                    "DistanceFromCall": 6905.02,
+                                                    "PresentableDistance": "4.3 miles away",
+                                                    "StopsFromCall": 30
+                                                }
+                                            },
+                                            "StopPointName": "CADMAN PLZ W/TILLARY ST",
+                                            "StopPointRef": "MTA_901070",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_504241",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.702381,
+                                    "Longitude": -73.921127
+                                },
+                                "VehicleRef": "MTA NYCT_6552"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:41.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 6.5672674,
+                                "BlockRef": "MTA NYCT_GA_C4-Weekday_C_GA_70560_B60-729",
+                                "DestinationName": "RIDGEWOOD METRO AV",
+                                "DestinationRef": "MTA_503885",
+                                "DirectionRef": "0",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_GA_C4-Weekday-123400_B60_729"
+                                },
+                                "JourneyPatternRef": "MTA_B380110",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 5186.33,
+                                            "DistanceFromCall": 226.93,
+                                            "PresentableDistance": "< 1 stop away",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "LAFAYETTE AV/LEWIS AV",
+                                    "StopPointRef": "MTA_303032",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5186.33,
+                                                    "DistanceFromCall": 226.93,
+                                                    "PresentableDistance": "< 1 stop away",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/LEWIS AV",
+                                            "StopPointRef": "MTA_303032",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5436.22,
+                                                    "DistanceFromCall": 476.82,
+                                                    "PresentableDistance": "1 stop away",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/STUYVESANT AV",
+                                            "StopPointRef": "MTA_303033",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5685.39,
+                                                    "DistanceFromCall": 725.99,
+                                                    "PresentableDistance": "2 stops away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MALCOLM X BL",
+                                            "StopPointRef": "MTA_303034",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5888.87,
+                                                    "DistanceFromCall": 929.47,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/PATCHEN AV",
+                                            "StopPointRef": "MTA_306395",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5970.13,
+                                                    "DistanceFromCall": 1010.74,
+                                                    "PresentableDistance": "0.6 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BROADWAY",
+                                            "StopPointRef": "MTA_303035",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6102.77,
+                                                    "DistanceFromCall": 1143.37,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303036",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6336.51,
+                                                    "DistanceFromCall": 1377.11,
+                                                    "PresentableDistance": "0.9 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303037",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6476.27,
+                                                    "DistanceFromCall": 1516.88,
+                                                    "PresentableDistance": "0.9 miles away",
+                                                    "StopsFromCall": 7
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/EVERGREEN AV",
+                                            "StopPointRef": "MTA_303038",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6761.79,
+                                                    "DistanceFromCall": 1802.39,
+                                                    "PresentableDistance": "1.1 miles away",
+                                                    "StopsFromCall": 8
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MYRTLE AV",
+                                            "StopPointRef": "MTA_303039",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6914.38,
+                                                    "DistanceFromCall": 1954.98,
+                                                    "PresentableDistance": "1.2 miles away",
+                                                    "StopsFromCall": 9
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WILSON AV",
+                                            "StopPointRef": "MTA_303040",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7165.43,
+                                                    "DistanceFromCall": 2206.04,
+                                                    "PresentableDistance": "1.4 miles away",
+                                                    "StopsFromCall": 10
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/KNICKERBOCKER AV",
+                                            "StopPointRef": "MTA_303041",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7385.37,
+                                                    "DistanceFromCall": 2425.97,
+                                                    "PresentableDistance": "1.5 miles away",
+                                                    "StopsFromCall": 11
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/IRVING AV",
+                                            "StopPointRef": "MTA_303042",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7605.72,
+                                                    "DistanceFromCall": 2646.33,
+                                                    "PresentableDistance": "1.6 miles away",
+                                                    "StopsFromCall": 12
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WYCKOFF AV",
+                                            "StopPointRef": "MTA_303043",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7771.9,
+                                                    "DistanceFromCall": 2812.51,
+                                                    "PresentableDistance": "1.7 miles away",
+                                                    "StopsFromCall": 13
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/ST NICHOLAS AV",
+                                            "StopPointRef": "MTA_303044",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7919.25,
+                                                    "DistanceFromCall": 2959.86,
+                                                    "PresentableDistance": "1.8 miles away",
+                                                    "StopsFromCall": 14
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CYPRESS AV",
+                                            "StopPointRef": "MTA_504229",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8028.33,
+                                                    "DistanceFromCall": 3068.94,
+                                                    "PresentableDistance": "1.9 miles away",
+                                                    "StopsFromCall": 15
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/SENECA AV",
+                                            "StopPointRef": "MTA_504230",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8157.62,
+                                                    "DistanceFromCall": 3198.23,
+                                                    "PresentableDistance": "2.0 miles away",
+                                                    "StopsFromCall": 16
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/STOCKHOLM ST",
+                                            "StopPointRef": "MTA_504231",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8364.26,
+                                                    "DistanceFromCall": 3404.86,
+                                                    "PresentableDistance": "2.1 miles away",
+                                                    "StopsFromCall": 17
+                                                }
+                                            },
+                                            "StopPointName": "STANHOPE ST/ONDERDONK AV",
+                                            "StopPointRef": "MTA_504240",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8522.16,
+                                                    "DistanceFromCall": 3562.76,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 18
+                                                }
+                                            },
+                                            "StopPointName": "WOODWARD AV/STANHOPE ST",
+                                            "StopPointRef": "MTA_503883",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8996.07,
+                                                    "DistanceFromCall": 4036.67,
+                                                    "PresentableDistance": "2.5 miles away",
+                                                    "StopsFromCall": 19
+                                                }
+                                            },
+                                            "StopPointName": "STARR ST/WOODWARD AV",
+                                            "StopPointRef": "MTA_503884",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9238.77,
+                                                    "DistanceFromCall": 4279.38,
+                                                    "PresentableDistance": "2.7 miles away",
+                                                    "StopsFromCall": 20
+                                                }
+                                            },
+                                            "StopPointName": "STARR ST/METROPOLITAN AV",
+                                            "StopPointRef": "MTA_503885",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_303011",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.691295,
+                                    "Longitude": -73.939013
+                                },
+                                "VehicleRef": "MTA NYCT_5149"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:49.000-04:00"
+                        },
+                        {
+                            "MonitoredVehicleJourney": {
+                                "Bearing": 6.530801,
+                                "BlockRef": "MTA NYCT_FP_C4-Weekday_C_FP_70980_B20-22",
+                                "DestinationName": "RIDGEWOOD CATALPA AV",
+                                "DestinationRef": "MTA_801068",
+                                "DirectionRef": "0",
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": "2014-08-13",
+                                    "DatedVehicleJourneyRef": "MTA NYCT_FP_C4-Weekday-124500_B20_22"
+                                },
+                                "JourneyPatternRef": "MTA_B380108",
+                                "LineRef": "MTA NYCT_B38",
+                                "Monitored": true,
+                                "MonitoredCall": {
+                                    "Extensions": {
+                                        "Distances": {
+                                            "CallDistanceAlongRoute": 3939.06,
+                                            "DistanceFromCall": 310.52,
+                                            "PresentableDistance": "< 1 stop away",
+                                            "StopsFromCall": 0
+                                        }
+                                    },
+                                    "StopPointName": "LAFAYETTE AV/NOSTRAND AV",
+                                    "StopPointRef": "MTA_303027",
+                                    "VisitNumber": 1
+                                },
+                                "OnwardCalls": {
+                                    "OnwardCall": [
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 3939.06,
+                                                    "DistanceFromCall": 310.52,
+                                                    "PresentableDistance": "< 1 stop away",
+                                                    "StopsFromCall": 0
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/NOSTRAND AV",
+                                            "StopPointRef": "MTA_303027",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4211.21,
+                                                    "DistanceFromCall": 582.67,
+                                                    "PresentableDistance": "1 stop away",
+                                                    "StopsFromCall": 1
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MARCY AV",
+                                            "StopPointRef": "MTA_303028",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4452.54,
+                                                    "DistanceFromCall": 824.0,
+                                                    "PresentableDistance": "0.5 miles away",
+                                                    "StopsFromCall": 2
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/TOMPKINS AV",
+                                            "StopPointRef": "MTA_303029",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4695.24,
+                                                    "DistanceFromCall": 1066.7,
+                                                    "PresentableDistance": "0.7 miles away",
+                                                    "StopsFromCall": 3
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/THROOP AV",
+                                            "StopPointRef": "MTA_303030",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 4936.7,
+                                                    "DistanceFromCall": 1308.16,
+                                                    "PresentableDistance": "0.8 miles away",
+                                                    "StopsFromCall": 4
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MARCUS GARVEY BL",
+                                            "StopPointRef": "MTA_306465",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5186.33,
+                                                    "DistanceFromCall": 1557.79,
+                                                    "PresentableDistance": "1.0 miles away",
+                                                    "StopsFromCall": 5
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/LEWIS AV",
+                                            "StopPointRef": "MTA_303032",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5436.22,
+                                                    "DistanceFromCall": 1807.68,
+                                                    "PresentableDistance": "1.1 miles away",
+                                                    "StopsFromCall": 6
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/STUYVESANT AV",
+                                            "StopPointRef": "MTA_303033",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5685.39,
+                                                    "DistanceFromCall": 2056.85,
+                                                    "PresentableDistance": "1.3 miles away",
+                                                    "StopsFromCall": 7
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/MALCOLM X BL",
+                                            "StopPointRef": "MTA_303034",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5888.87,
+                                                    "DistanceFromCall": 2260.33,
+                                                    "PresentableDistance": "1.4 miles away",
+                                                    "StopsFromCall": 8
+                                                }
+                                            },
+                                            "StopPointName": "LAFAYETTE AV/PATCHEN AV",
+                                            "StopPointRef": "MTA_306395",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 5970.13,
+                                                    "DistanceFromCall": 2341.59,
+                                                    "PresentableDistance": "1.5 miles away",
+                                                    "StopsFromCall": 9
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BROADWAY",
+                                            "StopPointRef": "MTA_303035",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6102.77,
+                                                    "DistanceFromCall": 2474.23,
+                                                    "PresentableDistance": "1.5 miles away",
+                                                    "StopsFromCall": 10
+                                                }
+                                            },
+                                            "StopPointName": "KOSSUTH PL/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303036",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6336.51,
+                                                    "DistanceFromCall": 2707.97,
+                                                    "PresentableDistance": "1.7 miles away",
+                                                    "StopsFromCall": 11
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/BUSHWICK AV",
+                                            "StopPointRef": "MTA_303037",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6476.27,
+                                                    "DistanceFromCall": 2847.73,
+                                                    "PresentableDistance": "1.8 miles away",
+                                                    "StopsFromCall": 12
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/EVERGREEN AV",
+                                            "StopPointRef": "MTA_303038",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6761.79,
+                                                    "DistanceFromCall": 3133.25,
+                                                    "PresentableDistance": "1.9 miles away",
+                                                    "StopsFromCall": 13
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/MYRTLE AV",
+                                            "StopPointRef": "MTA_303039",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 6914.38,
+                                                    "DistanceFromCall": 3285.84,
+                                                    "PresentableDistance": "2.0 miles away",
+                                                    "StopsFromCall": 14
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WILSON AV",
+                                            "StopPointRef": "MTA_303040",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7165.43,
+                                                    "DistanceFromCall": 3536.89,
+                                                    "PresentableDistance": "2.2 miles away",
+                                                    "StopsFromCall": 15
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/KNICKERBOCKER AV",
+                                            "StopPointRef": "MTA_303041",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7385.37,
+                                                    "DistanceFromCall": 3756.83,
+                                                    "PresentableDistance": "2.3 miles away",
+                                                    "StopsFromCall": 16
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/IRVING AV",
+                                            "StopPointRef": "MTA_303042",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7605.72,
+                                                    "DistanceFromCall": 3977.18,
+                                                    "PresentableDistance": "2.5 miles away",
+                                                    "StopsFromCall": 17
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/WYCKOFF AV",
+                                            "StopPointRef": "MTA_303043",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7771.9,
+                                                    "DistanceFromCall": 4143.36,
+                                                    "PresentableDistance": "2.6 miles away",
+                                                    "StopsFromCall": 18
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/ST NICHOLAS AV",
+                                            "StopPointRef": "MTA_303044",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 7919.25,
+                                                    "DistanceFromCall": 4290.71,
+                                                    "PresentableDistance": "2.7 miles away",
+                                                    "StopsFromCall": 19
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/CYPRESS AV",
+                                            "StopPointRef": "MTA_504229",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8028.33,
+                                                    "DistanceFromCall": 4399.79,
+                                                    "PresentableDistance": "2.7 miles away",
+                                                    "StopsFromCall": 20
+                                                }
+                                            },
+                                            "StopPointName": "DE KALB AV/SENECA AV",
+                                            "StopPointRef": "MTA_504230",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8157.62,
+                                                    "DistanceFromCall": 4529.08,
+                                                    "PresentableDistance": "2.8 miles away",
+                                                    "StopsFromCall": 21
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/STOCKHOLM ST",
+                                            "StopPointRef": "MTA_504231",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8395.16,
+                                                    "DistanceFromCall": 4766.62,
+                                                    "PresentableDistance": "3.0 miles away",
+                                                    "StopsFromCall": 22
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/HARMAN ST",
+                                            "StopPointRef": "MTA_504232",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8549.68,
+                                                    "DistanceFromCall": 4921.14,
+                                                    "PresentableDistance": "3.1 miles away",
+                                                    "StopsFromCall": 23
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/BLEECKER ST",
+                                            "StopPointRef": "MTA_504233",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8711.23,
+                                                    "DistanceFromCall": 5082.69,
+                                                    "PresentableDistance": "3.2 miles away",
+                                                    "StopsFromCall": 24
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/GROVE ST",
+                                            "StopPointRef": "MTA_504234",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 8904.19,
+                                                    "DistanceFromCall": 5275.65,
+                                                    "PresentableDistance": "3.3 miles away",
+                                                    "StopsFromCall": 25
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/PALMETTO ST",
+                                            "StopPointRef": "MTA_504236",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9063.79,
+                                                    "DistanceFromCall": 5435.25,
+                                                    "PresentableDistance": "3.4 miles away",
+                                                    "StopsFromCall": 26
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/MADISON ST",
+                                            "StopPointRef": "MTA_504237",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9222.59,
+                                                    "DistanceFromCall": 5594.05,
+                                                    "PresentableDistance": "3.5 miles away",
+                                                    "StopsFromCall": 27
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/CORNELIA ST",
+                                            "StopPointRef": "MTA_504238",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9438.11,
+                                                    "DistanceFromCall": 5809.57,
+                                                    "PresentableDistance": "3.6 miles away",
+                                                    "StopsFromCall": 28
+                                                }
+                                            },
+                                            "StopPointName": "ONDERDONK AV/CATALPA AV",
+                                            "StopPointRef": "MTA_504239",
+                                            "VisitNumber": 1
+                                        },
+                                        {
+                                            "Extensions": {
+                                                "Distances": {
+                                                    "CallDistanceAlongRoute": 9606.65,
+                                                    "DistanceFromCall": 5978.11,
+                                                    "PresentableDistance": "3.7 miles away",
+                                                    "StopsFromCall": 29
+                                                }
+                                            },
+                                            "StopPointName": "SENECA AV/CORNELIA ST",
+                                            "StopPointRef": "MTA_801068",
+                                            "VisitNumber": 1
+                                        }
+                                    ]
+                                },
+                                "OperatorRef": "MTA NYCT",
+                                "OriginRef": "MTA_303011",
+                                "ProgressRate": "normalProgress",
+                                "PublishedLineName": "B38",
+                                "SituationRef": [],
+                                "VehicleLocation": {
+                                    "Latitude": 40.689502,
+                                    "Longitude": -73.95462
+                                },
+                                "VehicleRef": "MTA NYCT_3984"
+                            },
+                            "RecordedAtTime": "2014-08-13T21:11:34.000-04:00"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+PS C:\Users\patwater\dropbox\levelupdata\cusp>

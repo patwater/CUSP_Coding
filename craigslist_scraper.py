@@ -2,6 +2,7 @@
 # http://stackoverflow.com/questions/14634108/automate-python-script to automate and store in a daily csv
 
 # To Do: Figure out how to pull just price AND figure out how to deal with the cragslist doesn't like me pinging them question 
+# http://www.quora.com/What-is-the-best-way-to-set-up-a-Craigslist-screen-scraping-application
 
 from robostrippy.resource import attr, attrList, Resource
 
