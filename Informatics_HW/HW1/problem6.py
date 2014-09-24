@@ -68,6 +68,10 @@ for i in answer_dict:
 		print j[0], j[1]
 
 """
+
+exampleList.append("".join(find_line)+"\n")
+
+
 for i in count:
 	print " "
 	print i[0]
